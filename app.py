@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 @st.cache_data
 def load_data():
     # Ensure this filename matches your GitHub repo file
-    return pd.read_csv('Student_performance_data _.csv')
+    return pd.read_csv('Student_performance_data.csv')
 
 df = load_data()
 
